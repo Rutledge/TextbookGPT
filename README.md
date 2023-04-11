@@ -11,6 +11,12 @@ Watch the [demo video with more prompts](https://www.loom.com/share/d1705c068a21
 
 ## Usage
 
+To use the plugin you need to be in the OpenAI Plugins early access allowlist.
+
+"Install unverified plugin" and use the following url to try the Deep Learning textbook https://plato-plugin.jackenglish1.repl.co
+
+## Developer Usage
+
 This is a fork of https://github.com/openai/chatgpt-retrieval-plugin. This repo adds
 
 - scripts for book manipulation under `scripts/process_book`
