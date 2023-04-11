@@ -12,7 +12,6 @@ from models.models import (
     DocumentMetadataFilter,
     QueryResult,
     QueryWithEmbedding,
-    Source,
 )
 from services.date import to_unix_timestamp
 
@@ -147,12 +146,12 @@ class PineconeDataStore(DataStore):
                 )
 
                 # If the source is not a valid Source in the Source enum, set it to None
-                if (
-                    metadata_without_text
-                    and "source" in metadata_without_text
-                    and metadata_without_text["source"] not in Source.__members__
-                ):
-                    metadata_without_text["source"] = None
+                # if (
+                #     metadata_without_text
+                #     and "source" in metadata_without_text
+                #     and metadata_without_text["source"] not in Source.__members__
+                # ):
+                #     metadata_without_text["source"] = None
 
                 # Create a document chunk with score object with the result data
                 result = DocumentChunkWithScore(

@@ -1,0 +1,19 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "retrieval",
+  "name_for_human": "Deeplearning Textbook",
+  "description_for_model": "Plugin for searching through the content of the book 'Deep Learning, Goodfellow et Al. 2016' to find answers to questions and retrieve relevant information. Use it whenever a user asks about this textbook. You can also use it when a user is asking about the topic of Deep Learning. Try to use exact quotes and references with chapters from the book so that user can follow up and go read the book.",
+  "description_for_human": "Ask the Deep Learning Textbook",
+  "auth": {
+    "type": "user_http",
+    "authorization_type": "bearer"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "/openapi.json",
+    "has_user_authentication": false
+  },
+  "logo_url": "https://plato-plugin.jackenglish1.repl.co/.well-known/plato.png",
+  "contact_email": "hello@contact.com", 
+  "legal_info_url": "http://example.com/legal-info"
+}

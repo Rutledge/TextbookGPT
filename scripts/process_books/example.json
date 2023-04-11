@@ -1,0 +1,11 @@
+[
+    {
+      "id": "1000",
+      "text": "The fundamental difficulty in performing continuous math on a digital computer is that we need to represent infinitely many real numbers with a finite number of bit patterns. This means that for almost all real numbers, we incur some approximation error when we represent the number in the computer. In many cases, this is just rounding error. Rounding error is problematic, especially when it compounds across many operations, and can cause algorithms that work in theory to fail in practice if they are not designed to minimize the accumulation of rounding error.",
+      "chapter": "Chapter 4 - Numerical Computation",
+      "chapter_id": "main-7.xhtml",
+      "source": "Deep Learning Book, Goodfellow et Al. 2016",
+      "source_id": "Goodfellow-et-al-2016",
+      "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+    },
+]

@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["isafulf <isabella@openai.com>"]
 readme = "README.md"
-packages = [{include = "server"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -31,7 +30,7 @@ llama-index = "0.5.4"
 [tool.poetry.scripts]
 start = "server.main:start"
 
-[tool.poetry.group.dev.dependencies]
+[tool.poetry.dev-dependencies]
 httpx = "^0.23.3"
 pytest = "^7.2.1"
 pytest-cov = "^4.0.0"

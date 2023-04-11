@@ -1,0 +1,1350 @@
+[{
+    "id": "1",
+    "text": "www.deeplearningbook.org",
+    "chapter": "",
+    "chapter_id": "main-1.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "2",
+    "text": "This book is accompanied by the above website. The website provides a variety of supplementary material, including exercises, lecture slides, corrections of\u00a0mistakes, and other resources that should be useful to both readers and instructors.",
+    "chapter": "",
+    "chapter_id": "main-1.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "3",
+    "text": "This book would not have been possible without the contributions of many people.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "4",
+    "text": "We would like to thank those who commented on our proposal for the book and helped plan its contents and organization: Guillaume Alain, Kyunghyun Cho,\u00a0Qaglar Gulgehre, David Krueger, Hugo Larochelle, Razvan Pascanu and Thomas\u00a0Rohee.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "5",
+    "text": "We would like to thank the people who offered feedback on the content of the book itself. Some offered feedback on many chapters: Martm Abadi, Guillaume\u00a0Alain, Ion Androutsopoulos, Fred Bertsch, Olexa Bilaniuk, Ufuk Can Bigici, Matko\u00a0Bosnjak, John Boersma, Greg Brockman, Alexandre de Brebisson, Pierre Luc\u00a0Carrier, Sarath Chandar, Pawel Chilinski, Mark Daoust, Oleg Dashevskii, Laurent\u00a0Dinh, Stephan Dreseitl, Jim Fan, Miao Fan, Meire Fortunato, Frederic Francis,\u00a0Nando de Freitas, Qaglar Gulgehre, Jurgen Van Gael, Javier Alonso Garaa,\u00a0Jonathan Hunt, Gopi Jeyaram, Chingiz Kabytayev, Lukasz Kaiser, Varun Kanade,\u00a0Akiel Khan, John King, Diederik P. Kingma, Yann LeCun, Rudolf Mathey, Matias\u00a0Mattamala, Abhinav Maurya, Kevin Murphy, Oleg Murk, Roman Novak, Augustus\u00a0Q. Odena, Simon Pavlik, Karl Pichotta, Kari Pulli, Roussel Rahman, Tapani Raiko,\u00a0Anurag Ranjan, Johannes Roith, Mihaela Rosca, Halis Sak, Cesar Salgado, Grigory\u00a0Sapunov, Yoshinori Sasaki, Mike Schuster, Julian Serban, Nir Shabat, Ken Shirriff,\u00a0Andre Simpelo, Scott Stanley, David Sussillo, Ilya Sutskever, Carles Gelada Saez,\u00a0Graham Taylor, Valentin Tolmer, An Tran, Shubhendu Trivedi, Alexey Umnov,\u00a0Vincent Vanhoucke, Marco Visentini-Scarzanella, David Warde-Farley, Dustin\u00a0Webb, Kelvin Xu, Wei Xue, Ke Yang, Li Yao, Zygmunt Zaj^c and Ozan Qaglayan.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "6",
+    "text": "We would also like to thank those who provided us with useful feedback on individual chapters:",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "7",
+    "text": "\u2022 \u00a0\u00a0\u00a0Notation: Zhang Yuanhang.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "8",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 1, Introduction: Yusuf Akgul, Sebastien Bratieres, Samira Ebrahimi,\u00a0Charlie Gorichanaz, Brendan Loudermilk, Eric Morris, Cosmin Parvulescu\u00a0and Alfredo Solano.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "9",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 2, Linear Algebra: Amjad Almahairi, Nikola Banic, Kevin Bennett,\u00a0Philippe Castonguay, Oscar Chang, Eric Fosler-Lussier, Andrey Khalyavin,\u00a0Sergey Oreshkov, Istvan Petras, Dennis Prangle, Thomas Rohee, Colby\u00a0Toland, Massimiliano Tomassoli, Alessandro Vitale and Bob Welland.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "10",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 3, Probability and Information Theory: John Philip Anderson, Kai\u00a0Arulkumaran, Vincent Dumoulin, Rui Fa, Stephan Gouws, Artem Oboturov,\u00a0Antti Rasmus, Alexey Surkov and Volker Tresp.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "11",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 4, Numerical Computation: Tran Lam An, Ian Fischer, and Hu\u00a0Yuhuang.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "12",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 5, Machine Learning Basics: Dzmitry Bahdanau, Nikhil Garg,\u00a0Makoto Otsuka, Bob Pepin, Philip Popien, Emmanuel Rayner, Kee-Bong\u00a0Song, Zheng Sun and Andy Wu.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "13",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 6, Deep Feedforward Networks: Uriel Berdugo, Fabrizio Bottarel,\u00a0Elizabeth Burl, Ishan Durugkar, Jeff Hlywa, Jong Wook Kim, David Krueger\u00a0and Aditya Kumar Praharaj.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "14",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 7, Regularization for Deep Learning: Kshitij Lauria, Inkyu Lee,\u00a0Sunil Mohan and Joshua Salisbury.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "15",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 8, Optimization for Training Deep Models: Marcel Ackermann,\u00a0Rowel Atienza, Andrew Brock, Tegan Maharaj, James Martens, Klaus Strobl\u00a0and Martin Vita.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "16",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 9, Convolutional Networks: Martin Arjovsky, Eugene Brevdo, Konstantin Divilov, Eric Jensen, Asifullah Khan, Mehdi Mirza, Alex Paino, Eddie\u00a0Pierce, Marjorie Sayer, Ryan Stout and Wentao Wu.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "17",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 10, Sequence Modeling: Recurrent and Recursive Nets: Gokgen\u00a0Eraslan, Steven Hickson, Razvan Pascanu, Lorenzo von Ritter, Rui Rodrigues,\u00a0Dmitriy Serdyuk, Dongyu Shi and Kaiyu Yang.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "18",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 11, Practical Methodology: Daniel Beckstein.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "19",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 12, Applications: George Dahl and Ribana Roscher.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "20",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 15, Representation Learning: Kunal Ghosh.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "21",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 16, Structured Probabilistic Models for Deep Learning: Minh Le\u00a0and Anton Varfolom.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "22",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 18, Confronting the Partition Function: Sam Bowman.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "23",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 19, Approximate Inference: Yujia Bao.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "24",
+    "text": "\u2022 \u00a0\u00a0\u00a0Chapter 20, Deep Generative Models: Nicolas Chapados, Daniel Galvez,\u00a0Wenming Ma, Fady Medhat, Shakir Mohamed and Gregoire Montavon.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "25",
+    "text": "\u2022 \u00a0\u00a0\u00a0Bibliography: Lukas Michelbacher and Leslie N. Smith.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "26",
+    "text": "We also want to thank those who allowed us to reproduce images, figures or data from their publications. We indicate their contributions in the figure captions\u00a0throughout the text.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "27",
+    "text": "We would like to thank Lu Wang for writing pdf2htmlEX, which we used to make the web version of the book, and for offering support to improve the quality\u00a0of the resulting HTML.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "28",
+    "text": "We would like to thank Ian\u2019s wife Daniela Flori Goodfellow for patiently supporting Ian during the writing of the book as well as for help with proofreading.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "29",
+    "text": "We would like to thank the Google Brain team for providing an intellectual environment where Ian could devote a tremendous amount of time to writing this\u00a0book and receive feedback and guidance from colleagues. We would especially like\u00a0to thank Ian\u2019s former manager, Greg Corrado, and his current manager, Samy\u00a0Bengio, for their support of this project. Finally, we would like to thank Geoffrey\u00a0Hinton for encouragement when writing was difficult.",
+    "chapter": "",
+    "chapter_id": "main-2.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "30",
+    "text": "This section provides a concise reference describing the notation used throughout this book. If you are unfamiliar with any of the corresponding mathematical\u00a0concepts, this notation reference may seem intimidating. However, do not despair,\u00a0we describe most of these ideas in chapters 2-4.",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "31",
+    "text": "",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "32",
+    "text": "Numbers and Arrays",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "33",
+    "text": "a",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "34",
+    "text": "A scalar (integer or real)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "35",
+    "text": "a",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "36",
+    "text": "A vector",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "37",
+    "text": "A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "38",
+    "text": "A matrix",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "39",
+    "text": "A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "40",
+    "text": "A tensor",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "41",
+    "text": "In",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "42",
+    "text": "Identity matrix with n rows and n columns",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "43",
+    "text": "I",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "44",
+    "text": "Identity matrix with dimensionality implied by",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "45",
+    "text": "context",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "46",
+    "text": "e(i)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "47",
+    "text": "Standard basis vector [0,..., 0, 1,0,..., 0] with a 1 at position i",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "48",
+    "text": "diag(a)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "49",
+    "text": "A square, diagonal matrix with diagonal entries given by a",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "50",
+    "text": "a",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "51",
+    "text": "A scalar random variable",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "52",
+    "text": "a",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "53",
+    "text": "A vector-valued random variable",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "54",
+    "text": "A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "55",
+    "text": "A matrix-valued random variable",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "56",
+    "text": "Xi",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "57",
+    "text": "Sets and Graphs",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "58",
+    "text": "A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "59",
+    "text": "A set",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "60",
+    "text": "R",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "61",
+    "text": "The set of real numbers",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "62",
+    "text": "{0,1}",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "63",
+    "text": "The set containing 0 and 1",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "64",
+    "text": "{0,1,... ,n}",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "65",
+    "text": "The set of all integers between 0 and n",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "66",
+    "text": "[a, b]",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "67",
+    "text": "The real interval including a and b",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "68",
+    "text": "(a, b]",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "69",
+    "text": "The real interval excluding a but including b",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "70",
+    "text": "A\\B",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "71",
+    "text": "Set subtraction, i.e., the set containing the ele\u25a0 ments of A that are not in B",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "72",
+    "text": "G",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "73",
+    "text": "A graph",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "74",
+    "text": "Pa g(x i)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "75",
+    "text": "The parents of xi in G",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "76",
+    "text": "Indexing",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "77",
+    "text": "a* \u00a0\u00a0\u00a0Element i of vector a, with indexing starting at 1",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "78",
+    "text": "a\u2014 All elements of vector a except for element i Ai7j\u00a0\u00a0\u00a0\u00a0Element i, j of matrix A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "79",
+    "text": "A; Row i of matrix A A;,i Column i of matrix A\u00a0Ajk Element (i, j, k) of a 3-D tensor A\u00a0A;; i 2-D slice of a 3-D tensor",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "80",
+    "text": "\u05f31\u05d5\u05d9\u05d5\u2022",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "81",
+    "text": "a* \u00a0\u00a0\u00a0Element i of the random vector a",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "82",
+    "text": "Linear Algebra Operations",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "83",
+    "text": "AJ Transpose of matrix A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "84",
+    "text": "A+ Moore-Penrose pseudoinverse of A A 0 B Element-wise (Hadamard) product of A and B\u00a0det(A) Determinant of A",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "85",
+    "text": "dy",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "86",
+    "text": "dx",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "87",
+    "text": "dy",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "88",
+    "text": "dx",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "89",
+    "text": "V xy",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "90",
+    "text": "Vx y Vxy",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "91",
+    "text": "df",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "92",
+    "text": "d x",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "93",
+    "text": "Calculus",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "94",
+    "text": "Derivative of y with respect to x",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "95",
+    "text": "Partial derivative of y with respect to x",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "96",
+    "text": "Gradient of y with respect to x",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "97",
+    "text": "Matrix derivatives of y with respect to X",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "98",
+    "text": "Tensor containing derivatives of y with respect to X",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "99",
+    "text": "Jacobian matrix J G Rm",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "100",
+    "text": "of f : Rn",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "101",
+    "text": "Rm",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "102",
+    "text": "VX f (x) or H(f )(x) The Hessian matrix of f at input point x",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "103",
+    "text": "f (x)dx f (x)dx",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "104",
+    "text": "Definite integral over the entire domain of x Definite integral with respect to x over the set S",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "105",
+    "text": "Probability and Information Theory",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "106",
+    "text": "aRb",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "107",
+    "text": "The random variables a and b are independent",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "108",
+    "text": "aRb | c",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "109",
+    "text": "They are are conditionally independent given c",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "110",
+    "text": "P (a)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "111",
+    "text": "A probability distribution over a discrete variable",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "112",
+    "text": "p(a)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "113",
+    "text": "A probability distribution over a continuous variable, or over a variable whose type has not been specified",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "114",
+    "text": "a ~ P",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "115",
+    "text": "Random variable a has distribution P",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "116",
+    "text": "Ex-P[f (x)] or Ef (x)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "117",
+    "text": "Expectation of f (x) with respect to P(x)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "118",
+    "text": "Var(f (x))",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "119",
+    "text": "Variance of f (x) under P(x)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "120",
+    "text": "Cov(f (x), g(x))",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "121",
+    "text": "Covariance of f (x) and g(x) under P(x)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "122",
+    "text": "H (x)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "123",
+    "text": "Shannon entropy of the random variable x",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "124",
+    "text": "Dkl(p ||q)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "125",
+    "text": "Kullback-Leibler divergence of P and Q",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "126",
+    "text": "N(x; i, S)",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "127",
+    "text": "Gaussian distribution over x with mean fi and covariance S",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "128",
+    "text": "xill",
+    "chapter": "",
+    "chapter_id": "main-3.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "129",
+    "text": "Inventors have long dreamed of creating machines that think. This desire dates back to at least the time of ancient Greece. The mythical figures Pygmalion,\u00a0Daedalus, and Hephaestus may all be interpreted as legendary inventors, and\u00a0Galatea, Talos, and Pandora may all be regarded as artificial life (Ovid and Martin,\u00a02004; Sparkes, 1996; Tandy, 1997).",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "130",
+    "text": "When programmable computers were first conceived, people wondered whether they might become intelligent, over a hundred years before one was built (Lovelace,\u00a01842). Today, artificial intelligence (AI) is a thriving field with many practical\u00a0applications and active research topics. We look to intelligent software to automate\u00a0routine labor, understand speech or images, make diagnoses in medicine and\u00a0support basic scientific research.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "131",
+    "text": "In the early days of artificial intelligence, the field rapidly tackled and solved problems that are intellectually difficult for human beings but relatively straightforward for computers\u2014problems that can be described by a list of formal, mathematical rules. The true challenge to artificial intelligence proved to be solving\u00a0the tasks that are easy for people to perform but hard for people to describe\u00a0formally\u2014problems that we solve intuitively, that feel automatic, like recognizing\u00a0spoken words or faces in images.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "132",
+    "text": "This book is about a solution to these more intuitive problems. This solution is to allow computers to learn from experience and understand the world in terms of a\u00a0hierarchy of concepts, with each concept defined in terms of its relation to simpler\u00a0concepts. By gathering knowledge from experience, this approach avoids the need\u00a0for human operators to formally specify all of the knowledge that the computer\u00a0needs. The hierarchy of concepts allows the computer to learn complicated concepts\u00a0by building them out of simpler ones. If we draw a graph showing how these\u00a0concepts are built on top of each other, the graph is deep, with many layers. For\u00a0this reason, we call this approach to AI deep learning.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "133",
+    "text": "Many of the early successes of AI took place in relatively sterile and formal environments and did not require computers to have much knowledge about\u00a0the world. For example, IBM\u2019s Deep Blue chess-playing system defeated world\u00a0champion Garry Kasparov in 1997 (Hsu, 2002). Chess is of course a very simple\u00a0world, containing only sixty-four locations and thirty-two pieces that can move\u00a0in only rigidly circumscribed ways. Devising a successful chess strategy is a\u00a0tremendous accomplishment, but the challenge is not due to the difficulty of\u00a0describing the set of chess pieces and allowable moves to the computer. Chess\u00a0can be completely described by a very brief list of completely formal rules, easily\u00a0provided ahead of time by the programmer.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "134",
+    "text": "Ironically, abstract and formal tasks that are among the most difficult mental undertakings for a human being are among the easiest for a computer. Computers\u00a0have long been able to defeat even the best human chess player, but are only\u00a0recently matching some of the abilities of average human beings to recognize objects\u00a0or speech. A person\u2019s everyday life requires an immense amount of knowledge\u00a0about the world. Much of this knowledge is subjective and intuitive, and therefore\u00a0difficult to articulate in a formal way. Computers need to capture this same\u00a0knowledge in order to behave in an intelligent way. One of the key challenges in\u00a0artificial intelligence is how to get this informal knowledge into a computer.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "135",
+    "text": "Several artificial intelligence projects have sought to hard-code knowledge about the world in formal languages. A computer can reason about statements in these\u00a0formal languages automatically using logical inference rules. This is known as the\u00a0knowledge base approach to artificial intelligence. None of these projects has led to\u00a0a major success. One of the most famous such projects is Cyc (Lenat and Guha,\u00a01989). Cyc is an inference engine and a database of statements in a language\u00a0called CycL. These statements are entered by a staff of human supervisors. It is an\u00a0unwieldy process. People struggle to devise formal rules with enough complexity\u00a0to accurately describe the world. For example, Cyc failed to understand a story\u00a0about a person named Fred shaving in the morning (Linde, 1992). Its inference\u00a0engine detected an inconsistency in the story: it knew that people do not have\u00a0electrical parts, but because Fred was holding an electric razor, it believed the\u00a0entity \u201cFredWhileShaving\u201d contained electrical parts. It therefore asked whether\u00a0Fred was still a person while he was shaving.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "136",
+    "text": "The difficulties faced by systems relying on hard-coded knowledge suggest that AI systems need the ability to acquire their own knowledge, by extracting patterns\u00a0from raw data. This capability is known as machine learning. The introduction\u00a0of machine learning allowed computers to tackle problems involving knowledge\u00a0of the real world and make decisions that appear subjective. A simple machine\u00a0learning algorithm called logistic regression can determine whether to recommend\u00a0cesarean delivery (Mor-Yosef et al., 1990). A simple machine learning algorithm\u00a0called naive Bayes can separate legitimate e-mail from spam e-mail.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "137",
+    "text": "The performance of these simple machine learning algorithms depends heavily on the representation of the data they are given. For example, when logistic\u00a0regression is used to recommend cesarean delivery, the AI system does not examine\u00a0the patient directly. Instead, the doctor tells the system several pieces of relevant\u00a0information, such as the presence or absence of a uterine scar. Each piece of\u00a0information included in the representation of the patient is known as a feature.\u00a0Logistic regression learns how each of these features of the patient correlates with\u00a0various outcomes. However, it cannot influence the way that the features are\u00a0defined in any way. If logistic regression was given an MRI scan of the patient,\u00a0rather than the doctor\u2019s formalized report, it would not be able to make useful\u00a0predictions. Individual pixels in an MRI scan have negligible correlation with any\u00a0complications that might occur during delivery.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "138",
+    "text": "This dependence on representations is a general phenomenon that appears throughout computer science and even daily life. In computer science, operations such as searching a collection of data can proceed exponentially faster if\u00a0the collection is structured and indexed intelligently. People can easily perform\u00a0arithmetic on Arabic numerals, but find arithmetic on Roman numerals much\u00a0more time-consuming. It is not surprising that the choice of representation has an\u00a0enormous effect on the performance of machine learning algorithms. For a simple\u00a0visual example, see Fig. 1.1.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "139",
+    "text": "Many artificial intelligence tasks can be solved by designing the right set of features to extract for that task, then providing these features to a simple machine\u00a0learning algorithm. For example, a useful feature for speaker identification from\u00a0sound is an estimate of the size of speaker\u2019s vocal tract. It therefore gives a strong\u00a0clue as to whether the speaker is a man, woman, or child.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "140",
+    "text": "However, for many tasks, it is difficult to know what features should be extracted. For example, suppose that we would like to write a program to detect cars in\u00a0photographs. We know that cars have wheels, so we might like to use the presence\u00a0of a wheel as a feature. Unfortunately, it is difficult to describe exactly what a\u00a0wheel looks like in terms of pixel values. A wheel has a simple geometric shape but\u00a0its image may be complicated by shadows falling on the wheel, the sun glaring off\u00a0the metal parts of the wheel, the fender of the car or an object in the foreground\u00a0obscuring part of the wheel, and so on.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "141",
+    "text": "Polar coordinates",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "142",
+    "text": "Cartesian coordinates",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "143",
+    "text": "X",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "144",
+    "text": "\u05d4\u05e1",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "145",
+    "text": "r",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "146",
+    "text": "Figure 1.1: Example of different representations: suppose we want to separate two categories of data by drawing a line between them in a scatterplot. In the plot on the left,\u00a0we represent some data using Cartesian coordinates, and the task is impossible. In the plot\u00a0on the right, we represent the data with polar coordinates and the task becomes simple to\u00a0solve with a vertical line. (Figure produced in collaboration with David Warde-Farley)",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "147",
+    "text": "One solution to this problem is to use machine learning to discover not only the mapping from representation to output but also the representation itself.\u00a0This approach is known as representation learning. Learned representations often\u00a0result in much better performance than can be obtained with hand-designed\u00a0representations. They also allow AI systems to rapidly adapt to new tasks, with\u00a0minimal human intervention. A representation learning algorithm can discover a\u00a0good set of features for a simple task in minutes, or a complex task in hours to\u00a0months. Manually designing features for a complex task requires a great deal of\u00a0human time and effort; it can take decades for an entire community of researchers.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "148",
+    "text": "The quintessential example of a representation learning algorithm is the autoencoder. An autoencoder is the combination of an encoder function that converts the input data into a different representation, and a decoder function that converts\u00a0the new representation back into the original format. Autoencoders are trained to\u00a0preserve as much information as possible when an input is run through the encoder\u00a0and then the decoder, but are also trained to make the new representation have\u00a0various nice properties. Different kinds of autoencoders aim to achieve different\u00a0kinds of properties.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "149",
+    "text": "When designing features or algorithms for learning features, our goal is usually to separate the factors of variation that explain the observed data. In this context,\u00a0we use the word \u201cfactors\u201d simply to refer to separate sources of influence; the factors\u00a0are usually not combined by multiplication. Such factors are often not quantities\u00a0that are directly observed. Instead, they may exist either as unobserved objects\u00a0or unobserved forces in the physical world that affect observable quantities. They\u00a0may also exist as constructs in the human mind that provide useful simplifying\u00a0explanations or inferred causes of the observed data. They can be thought of as\u00a0concepts or abstractions that help us make sense of the rich variability in the data.\u00a0When analyzing a speech recording, the factors of variation include the speaker\u2019s\u00a0age, their sex, their accent and the words that they are speaking. When analyzing\u00a0an image of a car, the factors of variation include the position of the car, its color,\u00a0and the angle and brightness of the sun.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  },
+  {
+    "id": "150",
+    "text": "A major source of difficulty in many real-world artificial intelligence applications is that many of the factors of variation influence every single piece of data we are\u00a0able to observe. The individual pixels in an image of a red car might be very close\u00a0to black at night. The shape of the car\u2019s silhouette depends on the viewing angle.\u00a0Most applications require us to disentangle the factors of variation and discard the\u00a0ones that we do not care about.",
+    "chapter": "Introduction",
+    "chapter_id": "main-4.xhtml",
+    "source": "Deep Learning Book, Goodfellow et Al. 2016",
+    "source_id": "Goodfellow-et-al-2016",
+    "author": "Ian Goodfellow and Yoshua Bengio and Aaron Courville"
+  }]
