@@ -17,6 +17,10 @@ To use the plugin you need to be in the OpenAI Plugins early access allowlist.
 
 ## Developer Usage
 
+These are the API calls happening
+
+![](./demo3.png)
+
 This is a fork of https://github.com/openai/chatgpt-retrieval-plugin. This repo adds
 
 - scripts for book manipulation under `scripts/process_book`
