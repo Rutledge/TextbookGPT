@@ -39,18 +39,13 @@ components:
       type: object
       properties:
         source:
-          $ref: "#/components/schemas/Source"
-        source_id:
-          title: Source Id
+          title: Textbook Name
           type: string
-        url:
-          title: Url
+        image_url:
+          title: Diagram Link
           type: string
         created_at:
           title: Created At
-          type: string
-        author:
-          title: Author
           type: string
         document_id:
           title: Document Id
@@ -87,12 +82,10 @@ components:
           title: Document Id
           type: string
         source:
-          $ref: "#/components/schemas/Source"
-        source_id:
-          title: Source Id
+          title: Textbook Name
           type: string
-        author:
-          title: Author
+        image_url:
+          title: Diagram Link
           type: string
         start_date:
           title: Start Date
@@ -161,14 +154,6 @@ components:
           type: array
           items:
             $ref: "#/components/schemas/DocumentChunkWithScore"
-    Source:
-      title: Source
-      enum:
-        - email
-        - file
-        - chat
-      type: string
-      description: An enumeration.
     ValidationError:
       title: ValidationError
       required:
