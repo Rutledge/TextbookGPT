@@ -104,7 +104,7 @@ async def upsert(
         raise HTTPException(status_code=500, detail="Internal Service Error")
 
 
-@app.post("/query", response_model=QueryResponse)
+@app.post("/query")
 async def query_main(request: QueryRequest = Body(...)):
     """
     Use it whenever a user asks for a diagram. Return the relevant image_url as markdown: ![Diagram](image_url). Don't add extra text, just display the markdown image.
@@ -113,7 +113,9 @@ async def query_main(request: QueryRequest = Body(...)):
         results = await datastore.query(
             request.queries,
         )
-        return QueryResponse(results=results)
+        res = [(result.text, "![]({})".format(result.metadata.image_url)) for result in  results[0].results]
+        print(res)
+        return res
     except Exception as e:
         print("Error:", e)
         raise HTTPException(status_code=500, detail="Internal Service Error")

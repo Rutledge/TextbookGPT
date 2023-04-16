@@ -101,8 +101,7 @@ async def query_main(
 
 @sub_app.post(
     "/query",
-    response_model=QueryResponse,
-    description="Accepts search query objects with query and optional filter. Break down complex questions into sub-questions. Refine results by criteria, e.g. time / source, don't do this often. Split queries if ResponseTooLargeError occurs.",
+    description="Accepts search query string for image diagrams. Break down complex questions into sub-questions. Refine results by criteria, e.g. time / source, don't do this often. Split queries if ResponseTooLargeError occurs.",
 )
 async def query(
     request: QueryRequest = Body(...),
@@ -111,7 +110,9 @@ async def query(
         results = await datastore.query(
             request.queries,
         )
-        return QueryResponse(results=results)
+        res = [result.text, result.metadata.image_url for result in  results]
+        print(res)
+        return res
     except Exception as e:
         print("Error:", e)
         raise HTTPException(status_code=500, detail="Internal Service Error")
