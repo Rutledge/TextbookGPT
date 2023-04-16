@@ -85,6 +85,9 @@ async def upsert(
 async def query_main(
     request: QueryRequest = Body(...),
 ):
+    """
+    Use it whenever a user asks for a diagram. Return the relevant image_url as markdown: ![Diagram](image_url). Don't add extra text, just display the markdown image.
+    """
     try:
         results = await datastore.query(
             request.queries,
