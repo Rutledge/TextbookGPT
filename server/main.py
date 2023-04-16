@@ -80,7 +80,6 @@ async def upsert(
 
 @app.post(
     "/query",
-    response_model=QueryResponse,
 )
 async def query_main(
     request: QueryRequest = Body(...),
@@ -92,7 +91,9 @@ async def query_main(
         results = await datastore.query(
             request.queries,
         )
-        return QueryResponse(results=results)
+        res = [result.text, result.metadata.image_url for result in  results]
+        print(res)
+        return res
     except Exception as e:
         print("Error:", e)
         raise HTTPException(status_code=500, detail="Internal Service Error")
