@@ -3,6 +3,15 @@ import json
 import argparse
 import asyncio
 
+from pathlib import Path
+from dotenv import find_dotenv, load_dotenv
+env_path = Path("../../") / ".env"
+load_dotenv(dotenv_path=env_path, verbose=True)
+
+import sys
+sys.path.append('../../')
+sys.path.append('../../../')
+
 from models.models import Document, DocumentMetadata
 from datastore.datastore import DataStore
 from datastore.factory import get_datastore
@@ -41,6 +50,8 @@ async def process_json_dump(
             created_at = item.get("created_at", None)
             author = item.get("author", None)
 
+            image_url = item.get("image_url", None)
+
             if not text:
                 print("No document text, skipping...")
                 continue
@@ -48,10 +59,8 @@ async def process_json_dump(
             # create a metadata object with the source, source_id, url, created_at and author
             metadata = DocumentMetadata(
                 source=source,
-                source_id=source_id,
-                url=url,
+                image_url=image_url,
                 created_at=created_at,
-                author=author,
             )
             print("metadata: ", str(metadata))
 
