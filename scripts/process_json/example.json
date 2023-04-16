@@ -21,5 +21,7 @@
       "source_id": "567",
       "created_at": "2021-01-02T13:00:00Z",
       "author": "Alice"
-    }
+	},
+    {"image_source": "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png", "image_caption": "<figcaption class=\"figleg\"><a class=\"calibre5\" id=\"ca0010\"></a><span class=\"fignum\">Fig. 3.1</span> <a class=\"calibre5\" id=\"sp0010\"></a>Lateral view of the cerebral hemisphere, showing the main named gyri and sulci.</figcaption>"}, 
+	{"image_source": "https://en.wikipedia.org/wiki/Image#/media/File:Image_created_with_a_mobile_phone.png", "image_caption": "<figcaption class=\"figleg\"><a class=\"calibre5\" id=\"ca0015\"></a><span class=\"fignum\">Fig. 3.2</span> <a class=\"calibre5\" id=\"sp0015\"></a>Medial view of the cerebral hemisphere, showing the main named gyri and sulci.</figcaption>"}
 ]
