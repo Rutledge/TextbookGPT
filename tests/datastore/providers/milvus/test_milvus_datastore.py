@@ -9,7 +9,6 @@ from models.models import (
     DocumentMetadataFilter,
     DocumentChunk,
     QueryWithEmbedding,
-    Source,
 )
 from datastore.providers.milvus_datastore import (
     OUTPUT_DIM,
@@ -47,15 +46,13 @@ def document_chunk_one():
         "consectetur adipiscing elit",
         "sed do eiusmod tempor incididunt",
     ]
-    sources = [Source.email, Source.file, Source.chat]
-    source_ids = ["foo", "bar", "baz"]
-    urls = ["foo.com", "bar.net", "baz.org"]
+    source = ["foo", "bar", "baz"]
+    image_urls = ["foo.com", "bar.net", "baz.org"]
     created_ats = [
         "1929-10-28T09:30:00-05:00",
         "2009-01-03T16:39:57-08:00",
         "2021-01-21T10:00:00-02:00",
     ]
-    authors = ["Max Mustermann", "John Doe", "Jane Doe"]
 
     embeddings = sample_embeddings(len(texts))
 
@@ -66,10 +63,8 @@ def document_chunk_one():
             metadata=DocumentChunkMetadata(
                 document_id=doc_id,
                 source=sources[i],
-                source_id=source_ids[i],
-                url=urls[i],
+                image_url=image_urls[i],
                 created_at=created_ats[i],
-                author=authors[i],
             ),
             embedding=embeddings[i],  # type: ignore
         )
@@ -90,15 +85,13 @@ def document_chunk_two():
         "2consectetur adipiscing elit",
         "3sed do eiusmod tempor incididunt",
     ]
-    sources = [Source.email, Source.file, Source.chat]
-    source_ids = ["foo", "bar", "baz"]
-    urls = ["foo.com", "bar.net", "baz.org"]
+    sources = ["foo", "bar", "baz"]
+    image_urls = ["foo.com", "bar.net", "baz.org"]
     created_ats = [
         "1929-10-28T09:30:00-05:00",
         "2009-01-03T16:39:57-08:00",
         "3021-01-21T10:00:00-02:00",
     ]
-    authors = ["Max Mustermann", "John Doe", "Jane Doe"]
     embeddings = sample_embeddings(len(texts))
 
     for i in range(3):
@@ -108,10 +101,8 @@ def document_chunk_two():
             metadata=DocumentChunkMetadata(
                 document_id=doc_id_1,
                 source=sources[i],
-                source_id=source_ids[i],
-                url=urls[i],
-                created_at=created_ats[i],
-                author=authors[i],
+                image_url=image_urls[i],
+                created_at=created_ats[i]
             ),
             embedding=embeddings[i],  # type: ignore
         )
@@ -127,15 +118,13 @@ def document_chunk_two():
         "4wert sdfas fdsc",
         "52dsc fdsf eiusmod asdasd incididunt",
     ]
-    sources = [Source.email, Source.file, Source.chat]
-    source_ids = ["foo", "bar", "baz"]
-    urls = ["foo.com", "bar.net", "baz.org"]
+    sources = ["foo", "bar", "baz"]
+    image_urls = ["foo.com", "bar.net", "baz.org"]
     created_ats = [
         "4929-10-28T09:30:00-05:00",
         "5009-01-03T16:39:57-08:00",
         "6021-01-21T10:00:00-02:00",
     ]
-    authors = ["Max Mustermann", "John Doe", "Jane Doe"]
     embeddings = sample_embeddings(len(texts), 3)
 
     for i in range(3):
@@ -145,10 +134,8 @@ def document_chunk_two():
             metadata=DocumentChunkMetadata(
                 document_id=doc_id_2,
                 source=sources[i],
-                source_id=source_ids[i],
-                url=urls[i],
-                created_at=created_ats[i],
-                author=authors[i],
+                image_url=image_urls[i],
+                created_at=created_ats[i]
             ),
             embedding=embeddings[i],  # type: ignore
         )
@@ -288,7 +275,6 @@ async def test_delete_with_source_filter(milvus_datastore, document_chunk_one):
     milvus_datastore.col.flush()
     await milvus_datastore.delete(
         filter=DocumentMetadataFilter(
-            source=Source.email,
         )
     )
 

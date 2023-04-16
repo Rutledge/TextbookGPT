@@ -16,7 +16,7 @@ from models.api import (
 from datastore.factory import get_datastore
 from services.file import get_document_from_file
 
-from models.models import DocumentMetadata, Source
+from models.models import DocumentMetadata 
 
 from pathlib import Path
 from dotenv import find_dotenv, load_dotenv
@@ -29,7 +29,7 @@ app.mount("/.well-known", StaticFiles(directory=".well-known"), name="static")
 # Create a sub-application, in order to access just the query endpoints in the OpenAPI schema, found at http://0.0.0.0:8000/sub/openapi.json when the app is running locally
 sub_app = FastAPI(
     title="Text to Diagram API",
-    description="A retrieval API for querying and filtering documents based on natural language queries and metadata",
+    description="Plugin for searching through textbooks to find and retrieve relevant diagrams. Use it whenever a user asks for a diagram. Return the relevant image_url as markdown if one is found.",
     version="1.0.0",
     servers=[{"url": "https://your-app-url.com"}],
 )
@@ -48,10 +48,10 @@ async def upsert_file(
         metadata_obj = (
             DocumentMetadata.parse_raw(metadata)
             if metadata
-            else DocumentMetadata(source=Source.file)
+            else DocumentMetadata()
         )
     except:
-        metadata_obj = DocumentMetadata(source=Source.file)
+        metadata_obj = DocumentMetadata()
 
     document = await get_document_from_file(file, metadata_obj)
 

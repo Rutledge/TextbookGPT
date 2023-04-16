@@ -10,7 +10,6 @@ from models.models import (
     DocumentChunkMetadata,
     QueryWithEmbedding,
     DocumentMetadataFilter,
-    Source,
 )
 
 
@@ -55,7 +54,7 @@ def document_chunks() -> Dict[str, List[DocumentChunk]]:
             id=f"first-doc_{i}",
             text=f"Lorem ipsum {i}",
             metadata=DocumentChunkMetadata(
-                source=Source.email, created_at="2023-03-05", document_id="first-doc"
+                created_at="2023-03-05", document_id="first-doc"
             ),
             embedding=create_embedding(i, 5),
         )
@@ -159,7 +158,6 @@ async def test_query_returns_closest_entry(qdrant_datastore, document_chunks):
     assert 1 == len(query_results[0].results)
     first_document_chunk = query_results[0].results[0]
     assert 0.0 <= first_document_chunk.score <= 1.0
-    assert Source.email == first_document_chunk.metadata.source
     assert "2023-03-05" == first_document_chunk.metadata.created_at
     assert "first-doc" == first_document_chunk.metadata.document_id
 

@@ -3,7 +3,7 @@ from fastapi.testclient import TestClient
 from weaviate import Client
 import weaviate
 import os
-from models.models import DocumentMetadataFilter, Source
+from models.models import DocumentMetadataFilter
 from server.main import app
 from datastore.providers.weaviate_datastore import (
     SCHEMA,
@@ -50,7 +50,6 @@ def test_db(weaviate_client, documents):
 def documents():
     documents = []
 
-    authors = ["Max Mustermann", "John Doe", "Jane Doe"]
     texts = [
         "lorem ipsum dolor sit amet",
         "consectetur adipiscing elit",
@@ -71,10 +70,8 @@ def documents():
                 "text": texts[i],
                 "metadata": {
                     "source": sources[i],
-                    "source_id": "5325",
                     "url": "http://example.com",
                     "created_at": created_at[i],
-                    "author": authors[i],
                 },
             }
         )
@@ -148,10 +145,8 @@ def test_upsert(weaviate_client, document_id):
     tincidunt magna in pulvinar. Sed tincidunt vel nisi ac maximus.
     """
     source = "email"
-    source_id = "5325"
     url = "http://example.com"
     created_at = "2022-12-16T08:00:00+01:00"
-    author = "Max Mustermann"
 
     documents = {
         "documents": [
@@ -160,10 +155,8 @@ def test_upsert(weaviate_client, document_id):
                 "text": text,
                 "metadata": {
                     "source": source,
-                    "source_id": source_id,
-                    "url": url,
+                    "image_url": url,
                     "created_at": created_at,
-                    "author": author,
                 },
             }
         ]
@@ -178,10 +171,8 @@ def test_upsert(weaviate_client, document_id):
         "chunk_id",
         "document_id",
         "source",
-        "source_id",
-        "url",
-        "created_at",
-        "author",
+        "image_url",
+        "created_at"
     ]
 
     where_filter = {
@@ -208,10 +199,8 @@ def test_upsert(weaviate_client, document_id):
         assert weaviate_doc["document_id"] == document_id
 
         assert weaviate_doc["source"] == source
-        assert weaviate_doc["source_id"] == source_id
-        assert weaviate_doc["url"] == url
+        assert weaviate_doc["image_url"] == url
         assert weaviate_doc["created_at"] == created_at
-        assert weaviate_doc["author"] == author
 
         assert weaviate_doc["_additional"]["vector"]
 
@@ -227,10 +216,8 @@ def test_upsert_no_metadata(weaviate_client):
 
     metadata_properties = [
         "source",
-        "source_id",
-        "url",
+        "image_url",
         "created_at",
-        "author",
     ]
 
     response = client.post("/upsert", json={"documents": [no_metadata_doc]})

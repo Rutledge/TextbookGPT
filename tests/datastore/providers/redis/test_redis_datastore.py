@@ -1,6 +1,6 @@
 from datastore.providers.redis_datastore import RedisDataStore
 import datastore.providers.redis_datastore as static_redis
-from models.models import DocumentChunk, DocumentChunkMetadata, QueryWithEmbedding, Source
+from models.models import DocumentChunk, DocumentChunkMetadata, QueryWithEmbedding 
 import pytest
 import redis.asyncio as redis
 import numpy as np
@@ -21,7 +21,7 @@ def create_document_chunk(i, dim):
         text=f"Lorem ipsum {i}",
         embedding=create_embedding(i, dim),
         metadata=DocumentChunkMetadata(
-            source=Source.file, created_at="1970-01-01", document_id=f"doc-{i}"
+            created_at="1970-01-01", document_id=f"doc-{i}"
         ),
     )
 

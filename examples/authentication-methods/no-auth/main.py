@@ -16,7 +16,7 @@ from models.api import (
 from datastore.factory import get_datastore
 from services.file import get_document_from_file
 
-from models.models import DocumentMetadata, Source
+from models.models import DocumentMetadata 
 
 
 app = FastAPI()
@@ -44,10 +44,10 @@ async def upsert_file(
         metadata_obj = (
             DocumentMetadata.parse_raw(metadata)
             if metadata
-            else DocumentMetadata(source=Source.file)
+            else DocumentMetadata()
         )
     except:
-        metadata_obj = DocumentMetadata(source=Source.file)
+        metadata_obj = DocumentMetadata()
 
     document = await get_document_from_file(file, metadata_obj)
 

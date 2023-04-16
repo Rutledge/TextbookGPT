@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "name_for_model": "text2diagram",
   "name_for_human": "Text to Diagram",
-  "description_for_model": "Plugin for searching through textbooks to find and retrieve relevant diagrams. User it whenever a user asks for a diagram. Return the relevant diagram as an image if one is found.",
+  "description_for_model": "Plugin for searching through textbooks to find and retrieve relevant diagrams. Use it whenever a user asks for a diagram. Return the relevant image_url as markdown if one is found.",
   "description_for_human": "Find diagrams from textbooks",
   "auth": {
     "type": "user_http",
