@@ -32,6 +32,8 @@ async def process_json_dump(
     with open(filepath) as json_file:
         data = json.load(json_file)
 
+    import pdb;pdb.set_trace()
+
     documents = []
     skipped_items = []
     # iterate over the data and create document objects
@@ -43,6 +45,7 @@ async def process_json_dump(
             # get the id, text, source, source_id, url, created_at and author from the item
             # use default values if not specified
             id = item.get("id", None)
+            print(id)
             text = item.get("text", None)
             source = item.get("source", None)
             source_id = item.get("source_id", None)
@@ -50,7 +53,7 @@ async def process_json_dump(
             created_at = item.get("created_at", None)
             author = item.get("author", None)
 
-            image_url = item.get("image_url", None)
+            image_url = item["metadata"]["image_url"]
 
             if not text:
                 print("No document text, skipping...")
@@ -106,6 +109,7 @@ async def process_json_dump(
         batch_documents = documents[i : i + DOCUMENT_UPSERT_BATCH_SIZE]
         print(f"Upserting batch of {len(batch_documents)} documents, batch {i}")
         print("documents: ", documents)
+        import pdb;pdb.set_trace()
         await datastore.upsert(batch_documents)
 
     # print the skipped items

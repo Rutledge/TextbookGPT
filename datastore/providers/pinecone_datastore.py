@@ -34,6 +34,8 @@ class PineconeDataStore(DataStore):
     def __init__(self):
         # Check if the index name is specified and exists in Pinecone
         print(pinecone.list_indexes())
+        self.index = pinecone.Index("textbook-images")
+        print(self.index)
         if PINECONE_INDEX and PINECONE_INDEX not in pinecone.list_indexes():
 
             # Get all fields in the metadata object in a list
@@ -63,6 +65,8 @@ class PineconeDataStore(DataStore):
             except Exception as e:
                 print(f"Error connecting to index {PINECONE_INDEX}: {e}")
                 raise e
+        self.index = pinecone.Index("textbook-images")
+        print(self.index)
 
     @retry(wait=wait_random_exponential(min=1, max=20), stop=stop_after_attempt(3))
     async def _upsert(self, chunks: Dict[str, List[DocumentChunk]]) -> List[str]:

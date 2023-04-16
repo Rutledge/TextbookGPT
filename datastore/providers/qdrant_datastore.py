@@ -193,8 +193,11 @@ class QdrantDataStore(DataStore):
             }
 
             for meta_attr_name, payload_key in meta_attributes_keys.items():
-                attr_value = getattr(metadata_filter, meta_attr_name)
-                if attr_value is None:
+                try:
+                    attr_value = getattr(metadata_filter, meta_attr_name)
+                    if attr_value is None:
+                        continue
+                except AttributeError:
                     continue
 
                 must_conditions.append(
