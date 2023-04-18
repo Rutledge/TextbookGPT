@@ -1,4 +1,4 @@
-# textbookGPT - ChatGPT plugin to chat with textbooks (*developer access only*)
+# TextbookGPT (developer access only)
 
 A ChatGPT plugin to chat with textbooks, with support for **textbook diagrams**.
 See [DEMO VIDEO](https://youtube.com/shorts/8E2pUd9RiGQ?feature=share)
