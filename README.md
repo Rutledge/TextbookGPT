@@ -1,7 +1,8 @@
 # TextbookGPT (developer access only)
 
 A ChatGPT plugin to chat with textbooks, with support for **textbook diagrams**.
-See [DEMO VIDEO](https://youtube.com/shorts/8E2pUd9RiGQ?feature=share)
+
+See [DEMO VIDEO](https://youtube.com/shorts/8E2pUd9RiGQ?feature=share) and follow author on twitter <https://twitter.com/lessand_ro> to get updated for our next release!
 
 ## Diagram
 
@@ -26,20 +27,24 @@ To use the plugin you need to be in the OpenAI Plugins early access allowlist.
 
 *Deploy this repo on replit to use it or DM me at <https://twitter.com/lessand_ro> to have access!*
 
-## Developer Usage
+## Developer Access Quickstart
 
-These are the API calls happening
+This is a fork of https://github.com/openai/chatgpt-retrieval-plugin. 
 
-![](./demo3.png)
-
-This is a fork of https://github.com/openai/chatgpt-retrieval-plugin. This repo adds
-
-- scripts for book manipulation under `scripts/process_book`
-- updated textbook datamodel (e.g. chapters)
-- updated textbook queries and api prompting 
+1. Follow that tutorial to set up your vector database
 
 To add your own textbook you will need (beside the standard repo setup explained in OpenAI repo readme)
-1. a file in the form `scripts/process_books/deeplearning.json` 
-2. call the command `python scripts/process_books/process_json.py --filepath deeplearning.json`
+2. a file in the form `scripts/process_books/deeplearning.json` 
+3. call the command `python scripts/process_books/process_json.py --filepath deeplearning.json`
+
+4. deploy the plugin and use it!
+
+
+This repo adds from the original
+
+- scripts for book manipulation under `scripts/process_book`
+- updated textbook datamodel (e.g. chapters and diagrams)
+- updated textbook queries and api prompting 
+
 
 
