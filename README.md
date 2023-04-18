@@ -14,9 +14,9 @@ _Source-cited diagrams from textbooks right in your chat!_
 
 ![](./demo01.png)
 
-![](./demo2.png)
-
 ![](./demo02.png)
+
+![](./demo2.png)
 
 ![](./demo03.png)
 
