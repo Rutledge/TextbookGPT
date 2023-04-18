@@ -7,13 +7,23 @@
 🐦 **Follow** the author on [Twitter](https://twitter.com/lessand_ro) for updates on our next release!
 
 ## 🖼️ Diagrams
+
 _Source-cited diagrams from textbooks right in your chat!_
-![](./demo1.png)
-![](./demo2.png)
+
+![](./demo00.png)
+
+![](./demo01.png)
+
+![](./demo02.png)
+
+![](./demo03.png)
 
 ## 📝 Text Only
+
 _Example: Deep Learning Textbook on backpropagation (from `text-only` branch)_
+
 ![](./demo4.png)
+
 ![](./demo3.png)
 
 ## 🔧 Usage
