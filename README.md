@@ -1,4 +1,4 @@
-📚 **TextbookGPT** (developer access only) 🚀
+# 📚 **TextbookGPT** (developer access only) 🚀
 
 🗣️ _Chat with textbooks using ChatGPT! Now with ✨ **textbook diagrams** ✨ support_
 
@@ -6,22 +6,22 @@
 
 🐦 **Follow** the author on [Twitter](https://twitter.com/lessand_ro) for updates on our next release!
 
-### 🖼️ Diagrams
+## 🖼️ Diagrams
 _Source-cited diagrams from textbooks right in your chat!_
 ![](./demo1.png)
 ![](./demo2.png)
 
-### 📝 Text Only
+## 📝 Text Only
 _Example: Deep Learning Textbook on backpropagation (from `text-only` branch)_
 ![](./demo4.png)
 ![](./demo3.png)
 
-### 🔧 Usage
+## 🔧 Usage
 💡 Join the OpenAI Plugins early access allowlist
 
-🚀 Deploy this repo on Replit or 💌 DM [me](https://twitter.com/lessand_ro) for access!
+🚀 Deploy this repo on Replit or 💌 DM [me](https://twitter.com/lessand_ro) for our deployment link!
 
-### 💻 Developer Access Quickstart
+## 💻 Developer Access Quickstart
 1. Follow the [**original tutorial**](https://github.com/openai/chatgpt-retrieval-plugin) to set up your vector database
 2. Create a file like `scripts/process_books/deeplearning.json`
 3. Run `python scripts/process_books/process_json.py --filepath deeplearning.json`
