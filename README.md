@@ -1,11 +1,23 @@
-# ChatGPT Textbook Plugin
+# textbookGPT - ChatGPT plugin to chat with textbooks (*developer access only*)
 
-A ChatGPT plugin to chat with textbooks. 
+A ChatGPT plugin to chat with textbooks, with support for **textbook diagrams**.
 
-This is an example of asking the "Deep Learning Textbook" for exact quotes on backpropagation.
+[![ChatGPT Textbook Plugin Demo](https://youtube.com/shorts/8E2pUd9RiGQ?feature=share)](https://youtube.com/shorts/8E2pUd9RiGQ?feature=share)
+
+## Diagram
+
+ChatGPT answers your questions with diagram from textbook, citing sources!
 
 ![](./demo1.png)
 ![](./demo2.png)
+
+
+## Text Only
+
+This is an example of asking the "Deep Learning Textbook" for exact quotes on backpropagation. This is from the `text-only` branch of the repo.
+
+![](./demo3.png)
+![](./demo4.png)
 
 Watch the [demo video with more prompts](https://www.loom.com/share/d1705c068a2141c5934d25211477d21a) 
 
@@ -13,7 +25,7 @@ Watch the [demo video with more prompts](https://www.loom.com/share/d1705c068a21
 
 To use the plugin you need to be in the OpenAI Plugins early access allowlist.
 
-"Install unverified plugin" and use the following url to try the Deep Learning textbook https://plato-plugin.jackenglish1.repl.co
+*Deploy this repo on replit to use it or DM me at <https://twitter.com/lessand_ro> to have access!*
 
 ## Developer Usage
 
